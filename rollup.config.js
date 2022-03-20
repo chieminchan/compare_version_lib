@@ -12,8 +12,9 @@ export default {
         },
         {
             dir: "dist",
-            format: "cjs",
-            entryFileNames: "[name].cjs.js",
+            format: "umd",
+            entryFileNames: "[name].umd.js",
+            name: "index.umd.js",
         },
     ],
     plugins: [resolve(), commonjs(), typescript()],

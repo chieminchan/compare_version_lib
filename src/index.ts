@@ -12,8 +12,7 @@ const COMPARE_RESULT_MAP = {
   SAME: 0
 };
 
-function versionCompare(version1: string, version2:string): number{
-  // const { version1, version2 } = versions;
+function versionCompare (version1: string, version2:string): number{
   const version1Arr = version1.split('.');
   const version2Arr = version2.split('.');
   const maxLength = Math.max(version1Arr.length, version2Arr.length);
