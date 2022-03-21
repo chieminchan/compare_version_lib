@@ -1,6 +1,6 @@
 {
   "name": "compare_version_lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a js library that help you to compare two version number.",
   "main": "dist/index.umd.js",
   "module": "dist/index.esm.js",
@@ -11,14 +11,20 @@
     "test": "jest",
     "prepare": "husky install"
   },
-  "keywords": ["compare","compare-version"],
+  "keywords": [
+    "compare",
+    "compare-version"
+  ],
   "author": "chieminchan",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/chieminchan/compare_version_lib.git"
   },
-  "files": ["src/","dist/"],
+  "files": [
+    "src/",
+    "dist/"
+  ],
   "devDependencies": {
     "@commitlint/cli": "^16.2.1",
     "@commitlint/config-conventional": "^16.2.1",
