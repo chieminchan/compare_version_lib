@@ -1,6 +1,6 @@
 {
   "name": "compare_version_lib",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "This is a js library that help you to compare two version number.",
   "main": "dist/index.umd.js",
   "module": "dist/index.esm.js",
@@ -10,7 +10,9 @@
     "build": "rollup -c",
     "test": "jest",
     "prepare": "husky install",
-    "release": "standard-version"
+    "patch": "standard-version --patch",
+    "release": "standard-version",
+    "release:alpha": "standard-version --prerelease alpha"
   },
   "keywords": [
     "compare",
