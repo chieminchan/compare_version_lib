@@ -11,17 +11,14 @@
     "test": "jest",
     "prepare": "husky install"
   },
-  "keywords": [],
+  "keywords": ["compare","compare-version"],
   "author": "chieminchan",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/chieminchan/compare_version_lib.git"
   },
-  "files": [
-    "src/",
-    "dist/"
-  ],
+  "files": ["src/","dist/"],
   "devDependencies": {
     "@commitlint/cli": "^16.2.1",
     "@commitlint/config-conventional": "^16.2.1",
@@ -47,6 +44,6 @@
     ]
   },
   "lint-staged": {
-    "*.js": "eslint --cache --fix"
+    "*.ts": "eslint --cache --fix"
   }
 }
