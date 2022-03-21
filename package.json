@@ -9,7 +9,8 @@
     "dev": "rollup -w -c",
     "build": "rollup -c",
     "test": "jest",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "release": "standard-version"
   },
   "keywords": [
     "compare",
